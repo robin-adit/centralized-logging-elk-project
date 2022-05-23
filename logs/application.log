@@ -1,0 +1,62 @@
+23-05-2022 15:55:41.717 [main] INFO  c.r.e.CentralizedLoggingElkProjectApplication.logStarting - Starting CentralizedLoggingElkProjectApplication using Java 11.0.15 on DESKTOP-RCVKQP8 with PID 11640 (E:\Java\workspace-intelliJIdea\centralized-logging-elk-project\target\classes started by Sai in E:\Java\workspace-intelliJIdea\centralized-logging-elk-project)
+23-05-2022 15:55:41.763 [main] INFO  c.r.e.CentralizedLoggingElkProjectApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+23-05-2022 15:55:55.867 [main] INFO  c.r.e.CentralizedLoggingElkProjectApplication.logStarted - Started CentralizedLoggingElkProjectApplication in 23.298 seconds (JVM running for 37.488)
+23-05-2022 15:57:19.834 [http-nio-8181-exec-1] INFO  c.robin.elk.controller.ELKController.helloWorld - Inside Hello World Function
+23-05-2022 15:57:19.846 [http-nio-8181-exec-1] INFO  c.robin.elk.controller.ELKController.helloWorld - Response => Hello World! Mon May 23 15:57:19 IST 2022
+23-05-2022 15:57:19.901 [http-nio-8181-exec-1] ERROR c.robin.elk.controller.ELKController.helloWorld - HW : Error Message Here
+23-05-2022 15:57:19.902 [http-nio-8181-exec-1] WARN  c.robin.elk.controller.ELKController.helloWorld - HW : Warn Message Here
+23-05-2022 15:57:39.715 [http-nio-8181-exec-5] INFO  c.robin.elk.controller.ELKController.foodDetails - Inside Food Detail Function
+23-05-2022 15:57:39.723 [http-nio-8181-exec-5] ERROR c.robin.elk.controller.ELKController.foodDetails - FD : Error Message Here
+23-05-2022 15:57:39.724 [http-nio-8181-exec-5] WARN  c.robin.elk.controller.ELKController.foodDetails - FD : Warn Message Here
+23-05-2022 15:57:39.725 [http-nio-8181-exec-5] INFO  com.robin.elk.service.ELKService.getAllFoodDetails - Fetching ALL food details...
+23-05-2022 15:57:50.054 [http-nio-8181-exec-8] INFO  c.robin.elk.controller.ELKController.foodDetails - Inside Food Detail Function
+23-05-2022 15:57:50.055 [http-nio-8181-exec-8] ERROR c.robin.elk.controller.ELKController.foodDetails - FD : Error Message Here
+23-05-2022 15:57:50.055 [http-nio-8181-exec-8] WARN  c.robin.elk.controller.ELKController.foodDetails - FD : Warn Message Here
+23-05-2022 15:57:50.056 [http-nio-8181-exec-8] INFO  com.robin.elk.service.ELKService.getAllFoodDetails - Fetching ALL food details...
+23-05-2022 15:57:53.951 [http-nio-8181-exec-9] INFO  c.robin.elk.controller.ELKController.helloWorld - Inside Hello World Function
+23-05-2022 15:57:53.952 [http-nio-8181-exec-9] INFO  c.robin.elk.controller.ELKController.helloWorld - Response => Hello World! Mon May 23 15:57:53 IST 2022
+23-05-2022 15:57:53.953 [http-nio-8181-exec-9] ERROR c.robin.elk.controller.ELKController.helloWorld - HW : Error Message Here
+23-05-2022 15:57:53.954 [http-nio-8181-exec-9] WARN  c.robin.elk.controller.ELKController.helloWorld - HW : Warn Message Here
+23-05-2022 15:57:57.004 [http-nio-8181-exec-1] INFO  c.robin.elk.controller.ELKController.foodDetails - Inside Food Detail Function
+23-05-2022 15:57:57.006 [http-nio-8181-exec-1] ERROR c.robin.elk.controller.ELKController.foodDetails - FD : Error Message Here
+23-05-2022 15:57:57.007 [http-nio-8181-exec-1] WARN  c.robin.elk.controller.ELKController.foodDetails - FD : Warn Message Here
+23-05-2022 15:57:57.007 [http-nio-8181-exec-1] INFO  com.robin.elk.service.ELKService.getAllFoodDetails - Fetching ALL food details...
+23-05-2022 15:57:59.800 [http-nio-8181-exec-6] INFO  c.robin.elk.controller.ELKController.helloWorld - Inside Hello World Function
+23-05-2022 15:57:59.801 [http-nio-8181-exec-6] INFO  c.robin.elk.controller.ELKController.helloWorld - Response => Hello World! Mon May 23 15:57:59 IST 2022
+23-05-2022 15:57:59.801 [http-nio-8181-exec-6] ERROR c.robin.elk.controller.ELKController.helloWorld - HW : Error Message Here
+23-05-2022 15:57:59.802 [http-nio-8181-exec-6] WARN  c.robin.elk.controller.ELKController.helloWorld - HW : Warn Message Here
+23-05-2022 15:58:02.850 [http-nio-8181-exec-5] INFO  c.robin.elk.controller.ELKController.foodDetails - Inside Food Detail Function
+23-05-2022 15:58:02.851 [http-nio-8181-exec-5] ERROR c.robin.elk.controller.ELKController.foodDetails - FD : Error Message Here
+23-05-2022 15:58:02.852 [http-nio-8181-exec-5] WARN  c.robin.elk.controller.ELKController.foodDetails - FD : Warn Message Here
+23-05-2022 15:58:02.852 [http-nio-8181-exec-5] INFO  com.robin.elk.service.ELKService.getAllFoodDetails - Fetching ALL food details...
+23-05-2022 15:58:05.772 [http-nio-8181-exec-9] INFO  c.robin.elk.controller.ELKController.helloWorld - Inside Hello World Function
+23-05-2022 15:58:05.773 [http-nio-8181-exec-9] INFO  c.robin.elk.controller.ELKController.helloWorld - Response => Hello World! Mon May 23 15:58:05 IST 2022
+23-05-2022 15:58:05.773 [http-nio-8181-exec-9] ERROR c.robin.elk.controller.ELKController.helloWorld - HW : Error Message Here
+23-05-2022 15:58:05.774 [http-nio-8181-exec-9] WARN  c.robin.elk.controller.ELKController.helloWorld - HW : Warn Message Here
+23-05-2022 17:00:42.298 [main] INFO  c.r.e.CentralizedLoggingElkProjectApplication.logStarting - Starting CentralizedLoggingElkProjectApplication using Java 11.0.15 on DESKTOP-RCVKQP8 with PID 7316 (E:\Java\workspace-intelliJIdea\centralized-logging-elk-project\target\classes started by Sai in E:\Java\workspace-intelliJIdea\centralized-logging-elk-project)
+23-05-2022 17:00:42.360 [main] INFO  c.r.e.CentralizedLoggingElkProjectApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+23-05-2022 17:01:36.086 [main] INFO  c.r.e.CentralizedLoggingElkProjectApplication.logStarted - Started CentralizedLoggingElkProjectApplication in 65.951 seconds (JVM running for 82.783)
+23-05-2022 17:03:18.402 [http-nio-8181-exec-1] INFO  c.robin.elk.controller.ELKController.helloWorld - Inside Hello World Function
+23-05-2022 17:03:18.409 [http-nio-8181-exec-1] INFO  c.robin.elk.controller.ELKController.helloWorld - Response => Hello World! Mon May 23 17:03:18 IST 2022
+23-05-2022 17:03:18.412 [http-nio-8181-exec-1] ERROR c.robin.elk.controller.ELKController.helloWorld - HW : Error Message Here
+23-05-2022 17:03:18.413 [http-nio-8181-exec-1] WARN  c.robin.elk.controller.ELKController.helloWorld - HW : Warn Message Here
+23-05-2022 17:03:31.608 [http-nio-8181-exec-4] INFO  c.robin.elk.controller.ELKController.foodDetails - Inside Food Detail Function
+23-05-2022 17:03:31.610 [http-nio-8181-exec-4] ERROR c.robin.elk.controller.ELKController.foodDetails - FD : Error Message Here
+23-05-2022 17:03:31.610 [http-nio-8181-exec-4] WARN  c.robin.elk.controller.ELKController.foodDetails - FD : Warn Message Here
+23-05-2022 17:03:31.612 [http-nio-8181-exec-4] INFO  com.robin.elk.service.ELKService.getAllFoodDetails - Fetching ALL food details...
+23-05-2022 17:03:42.931 [http-nio-8181-exec-7] INFO  c.robin.elk.controller.ELKController.foodDetails - Inside Food Detail Function
+23-05-2022 17:03:42.933 [http-nio-8181-exec-7] ERROR c.robin.elk.controller.ELKController.foodDetails - FD : Error Message Here
+23-05-2022 17:03:42.933 [http-nio-8181-exec-7] WARN  c.robin.elk.controller.ELKController.foodDetails - FD : Warn Message Here
+23-05-2022 17:03:42.934 [http-nio-8181-exec-7] INFO  com.robin.elk.service.ELKService.getAllFoodDetails - Fetching ALL food details...
+23-05-2022 17:03:51.325 [http-nio-8181-exec-10] INFO  c.robin.elk.controller.ELKController.helloWorld - Inside Hello World Function
+23-05-2022 17:03:51.326 [http-nio-8181-exec-10] INFO  c.robin.elk.controller.ELKController.helloWorld - Response => Hello World! Mon May 23 17:03:51 IST 2022
+23-05-2022 17:03:51.327 [http-nio-8181-exec-10] ERROR c.robin.elk.controller.ELKController.helloWorld - HW : Error Message Here
+23-05-2022 17:03:51.327 [http-nio-8181-exec-10] WARN  c.robin.elk.controller.ELKController.helloWorld - HW : Warn Message Here
+23-05-2022 17:06:36.154 [http-nio-8181-exec-3] INFO  c.robin.elk.controller.ELKController.helloWorld - Inside Hello World Function
+23-05-2022 17:06:36.156 [http-nio-8181-exec-3] INFO  c.robin.elk.controller.ELKController.helloWorld - Response => Hello World! Mon May 23 17:06:36 IST 2022
+23-05-2022 17:06:36.156 [http-nio-8181-exec-3] ERROR c.robin.elk.controller.ELKController.helloWorld - HW : Error Message Here
+23-05-2022 17:06:36.157 [http-nio-8181-exec-3] WARN  c.robin.elk.controller.ELKController.helloWorld - HW : Warn Message Here
+23-05-2022 17:06:47.587 [http-nio-8181-exec-4] INFO  c.robin.elk.controller.ELKController.foodDetails - Inside Food Detail Function
+23-05-2022 17:06:47.588 [http-nio-8181-exec-4] ERROR c.robin.elk.controller.ELKController.foodDetails - FD : Error Message Here
+23-05-2022 17:06:47.589 [http-nio-8181-exec-4] WARN  c.robin.elk.controller.ELKController.foodDetails - FD : Warn Message Here
+23-05-2022 17:06:47.589 [http-nio-8181-exec-4] INFO  com.robin.elk.service.ELKService.getAllFoodDetails - Fetching ALL food details...

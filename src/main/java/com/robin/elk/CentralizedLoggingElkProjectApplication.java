@@ -1,0 +1,13 @@
+package com.robin.elk;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CentralizedLoggingElkProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CentralizedLoggingElkProjectApplication.class, args);
+	}
+
+}

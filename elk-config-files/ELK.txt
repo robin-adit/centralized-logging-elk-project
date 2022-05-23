@@ -1,0 +1,35 @@
+Start ElasticSearch (elasticsearch-8.2.0)
+
+bin\elasticsearch.bat (if first time)
+
+otherwise
+bin\elasticsearch
+
+NOTE : config\elasticsearch.yml needs to be updated (log file path,network.host,http.port,security.enabled=false,ssl=false)
+
+username : "elastic" and password as provided in the console(if first time) otherwise get password from "bin/elasticsearch-reset-password -u elastic" and copy/paste that to config/logstash.conf
+
+##############################################################################
+NOW :-
+Lets Start logstash (logstash-8.2.0)
+Create a config file with parameters for the logstash.exe (example -  config/logstash.conf)
+It will have input, filter and output parameters.
+Input will have paths of all your input files or logs.
+Filter will have filtering grep commands.
+Output will have parameters for output. STDOUT or FILE or ELASTICSEARCH and their respective credentials/parameters
+
+
+then :-
+bin/logstash -f ./config/logstash.conf
+
+##############################################################################
+NOW:-
+Lets Start Kibana (kibana-8.2.0)
+
+open config/kibana.yml
+and verify elasticsearch.hosts points to the correct URL, enable logging level,provide the log file names and enable for elasticsearch
+
+Then :-
+bin\kibana.bat
+
+Then open localhost:9200 or localhost:9600 or localhost:5601 on the browser and the server will take you to the elasticsearch console and you will be able to see the logs and the streams LIVE.
